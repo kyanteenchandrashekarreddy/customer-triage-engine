@@ -1,0 +1,552 @@
+[
+  {
+    "ticket_id": "d2367612-0619-4043-93bd-396f44025dca",
+    "timestamp": "2026-02-07T01:29:04.751990",
+    "customer_text": "Performance is very slow on the dashboard. Please help.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "89a1e636-be98-4822-a524-2fc5080f9fb1",
+    "timestamp": "2026-02-07T01:29:04.752074",
+    "customer_text": "Urgent: Why was I charged twice for the subscription? Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "8739ac48-2792-400f-aa4a-336b84df00dc",
+    "timestamp": "2026-02-07T01:29:04.752095",
+    "customer_text": "Hello, I need a refund for my last payment..",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "19af8758-2104-4de4-b082-424486717fb9",
+    "timestamp": "2026-02-07T01:29:04.752114",
+    "customer_text": "Hello, Integration with Slack would be amazing..",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Enterprise",
+      "true_category": "Feature Request",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "9e3d5f30-187e-4e4f-9547-7ff1dd6b79b3",
+    "timestamp": "2026-02-07T01:29:04.752130",
+    "customer_text": "Where can I find my invoice? Please help.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "3775ba2a-d21d-4ee0-94cd-45e1155f01a6",
+    "timestamp": "2026-02-07T01:29:04.752145",
+    "customer_text": "Why was I charged twice for the subscription?",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "395aae02-01cc-4bd1-93f1-79596cc565bc",
+    "timestamp": "2026-02-07T01:29:04.752161",
+    "customer_text": "Urgent: I want to cancel my subscription immediately..",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "f8f43da7-8d42-4875-a497-7a7816a424a8",
+    "timestamp": "2026-02-07T01:29:04.752176",
+    "customer_text": "Hi support, The api endpoint returns 500 error consistently. Please help.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Pro",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "64a0384a-ee04-4c3d-a7d5-0fb68b4b1f24",
+    "timestamp": "2026-02-07T01:29:04.753952",
+    "customer_text": "I need a refund for my last payment..",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "8f656713-f6c0-4247-8e85-4245440401a4",
+    "timestamp": "2026-02-07T01:29:04.753986",
+    "customer_text": "Hi support, I am getting a white screen on the mobile app. ASAP!",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Enterprise",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "b66f3519-6c80-45d8-a4b4-331d44c12c8a",
+    "timestamp": "2026-02-07T01:29:04.753999",
+    "customer_text": "Urgent: Where can I find my invoice? Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "9691e903-0272-4429-9e7b-f03f5ac6cbec",
+    "timestamp": "2026-02-07T01:29:04.754017",
+    "customer_text": "Urgent: I need a refund for my last payment. ASAP!",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "b1725d2c-497a-43dc-b58f-819cbe093ce7",
+    "timestamp": "2026-02-07T01:29:04.754186",
+    "customer_text": "Urgent: I am getting a white screen on the mobile app. Thanks.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Enterprise",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "4fd97665-6880-41f0-9f4c-34580020e77e",
+    "timestamp": "2026-02-07T01:29:04.754205",
+    "customer_text": "Hello, The api endpoint returns 500 error consistently. Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Pro",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "3bf58721-2497-4b2b-a007-fcb66ecc325f",
+    "timestamp": "2026-02-07T01:29:04.754220",
+    "customer_text": "Hello, Please add support for multi-user login.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Pro",
+      "true_category": "Feature Request",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "8aa7d073-b104-4001-89f1-bbe41528fb75",
+    "timestamp": "2026-02-07T01:29:04.754344",
+    "customer_text": "Can you add a dark mode option? ASAP!",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Enterprise",
+      "true_category": "Feature Request",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "292633ee-fe0d-45c9-846e-970b54850e3d",
+    "timestamp": "2026-02-07T01:29:04.754370",
+    "customer_text": "Hi support, Can you add a dark mode option?.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "faa75164-bcb3-4e4d-b9a2-705972064b0a",
+    "timestamp": "2026-02-07T01:29:04.754382",
+    "customer_text": "Why was I charged twice for the subscription?",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "a62c1dc8-f513-47ae-8bf6-564e67032edd",
+    "timestamp": "2026-02-07T01:29:04.754396",
+    "customer_text": "Hi support, It would be great to export data to CSV.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Pro",
+      "true_category": "Feature Request",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "8204c970-cf2a-4b70-b310-a8e44c64e224",
+    "timestamp": "2026-02-07T01:29:04.754411",
+    "customer_text": "Hello, Why was I charged twice for the subscription?",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "d457c9bf-a019-464d-9217-1c8b38e06646",
+    "timestamp": "2026-02-07T01:29:04.754426",
+    "customer_text": "Hi support, The api endpoint returns 500 error consistently. Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "450132b5-761b-4231-979e-f66a284dca84",
+    "timestamp": "2026-02-07T01:29:04.754440",
+    "customer_text": "Can you add a dark mode option? Please help.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Pro",
+      "true_category": "Feature Request",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "9a23b68b-2bf0-4abe-be5a-338cf88a6e55",
+    "timestamp": "2026-02-07T01:29:04.754454",
+    "customer_text": "Where can I find my invoice? Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "dc42a1de-43f7-4fb2-9a61-5c0ace1e0535",
+    "timestamp": "2026-02-07T01:29:04.754476",
+    "customer_text": "Hi support, Please add support for multi-user login. ASAP!",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Feature Request",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "47176d64-f7db-4fef-a6c4-ee52e79e7abd",
+    "timestamp": "2026-02-07T01:29:04.754492",
+    "customer_text": "Hi support, Integration with Slack would be amazing. Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "bc602715-c4ff-465c-bb52-2f48451c3bdd",
+    "timestamp": "2026-02-07T01:29:04.754512",
+    "customer_text": "Hi support, The app keeps crashing when I open the settings..",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Pro",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "afed876e-34e1-46d4-a534-44c89ee37152",
+    "timestamp": "2026-02-07T01:29:04.754535",
+    "customer_text": "Hi support, Where can I find my invoice? Please help.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "92591819-9e55-46f5-8e96-017894643fb9",
+    "timestamp": "2026-02-07T01:29:04.754559",
+    "customer_text": "Integration with Slack would be amazing. ASAP!",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "df57e5e9-d56f-4655-bb26-9e12dda5e9c8",
+    "timestamp": "2026-02-07T01:29:04.754586",
+    "customer_text": "Integration with Slack would be amazing. Thanks.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Pro",
+      "true_category": "Feature Request",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "0430e988-8fb4-4082-92b0-19f693e42668",
+    "timestamp": "2026-02-07T01:29:04.754614",
+    "customer_text": "I want to cancel my subscription immediately. Thanks.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "1bac920a-4798-490b-9545-168aa08611c0",
+    "timestamp": "2026-02-07T01:29:04.754632",
+    "customer_text": "Hi support, I cannot login to my account, password reset not working.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Pro",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "9b80dd07-555a-44d5-ab35-1a126a455b99",
+    "timestamp": "2026-02-07T01:29:04.754649",
+    "customer_text": "I want to cancel my subscription immediately. ASAP!",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "d5f02cbb-a09b-4f97-9daf-ae07d0ff1ac7",
+    "timestamp": "2026-02-07T01:29:04.754663",
+    "customer_text": "Hi support, The app keeps crashing when I open the settings. ASAP!",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Enterprise",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "05db385e-51bf-4606-9f7d-a6a8d520f78e",
+    "timestamp": "2026-02-07T01:29:04.754686",
+    "customer_text": "Can you add a dark mode option? Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Pro",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "de35159d-dd27-4b7e-a854-28ae92eff6e1",
+    "timestamp": "2026-02-07T01:29:04.754702",
+    "customer_text": "We need an API for automated reporting. Thanks.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Pro",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "52aac0a0-faae-4061-a232-cf27ec9c327d",
+    "timestamp": "2026-02-07T01:29:04.754723",
+    "customer_text": "Hello, I am getting a white screen on the mobile app. Thanks.",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "051d2f07-84e1-42ff-8ce8-035dcc16db84",
+    "timestamp": "2026-02-07T01:29:04.754773",
+    "customer_text": "Urgent: My credit card was declined but I have funds. ASAP!",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "684769b6-511e-4194-be18-629dcb1fb7b4",
+    "timestamp": "2026-02-07T01:29:04.754845",
+    "customer_text": "Hi support, Why was I charged twice for the subscription?.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Free",
+      "true_category": "Billing",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "070dbc5e-a106-4ee0-8847-d9c09caed312",
+    "timestamp": "2026-02-07T01:29:04.754886",
+    "customer_text": "Please add support for multi-user login. ASAP!",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "f5e14415-1492-4c22-9965-3b669411f803",
+    "timestamp": "2026-02-07T01:29:04.755146",
+    "customer_text": "Hello, The app keeps crashing when I open the settings. ASAP!",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Free",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "3acff00a-efb0-40a2-a905-dc5415e77338",
+    "timestamp": "2026-02-07T01:29:04.755221",
+    "customer_text": "Hi support, I am getting a white screen on the mobile app. ASAP!",
+    "metadata": {
+      "source": "chat",
+      "customer_tier": "Enterprise",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "a7001cf4-61af-48fe-b44a-ff03d0138f2a",
+    "timestamp": "2026-02-07T01:29:04.755249",
+    "customer_text": "The api endpoint returns 500 error consistently. Please help.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "ef057126-84f8-45aa-aee6-ad662f19383a",
+    "timestamp": "2026-02-07T01:29:04.755268",
+    "customer_text": "I need a refund for my last payment. ASAP!",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Pro",
+      "true_category": "Billing",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "6c07231c-c540-4e5d-a71a-c8ea859e1cff",
+    "timestamp": "2026-02-07T01:29:04.755297",
+    "customer_text": "Urgent: I cannot login to my account, password reset not working. Thanks.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Pro",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Neutral"
+    }
+  },
+  {
+    "ticket_id": "8dc5be20-ee19-4f9f-a934-ceefaa01c225",
+    "timestamp": "2026-02-07T01:29:04.755311",
+    "customer_text": "Hi support, We need an API for automated reporting. Please help.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Free",
+      "true_category": "Feature Request",
+      "true_sentiment": "Happy"
+    }
+  },
+  {
+    "ticket_id": "28f17a85-fb47-40bd-b104-757586e65928",
+    "timestamp": "2026-02-07T01:29:04.755325",
+    "customer_text": "Hello, I cannot login to my account, password reset not working. Thanks.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "f6a83a98-f5ef-43fb-9c76-77c36e79b074",
+    "timestamp": "2026-02-07T01:29:04.755339",
+    "customer_text": "Please add support for multi-user login..",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Free",
+      "true_category": "Feature Request",
+      "true_sentiment": "Confused"
+    }
+  },
+  {
+    "ticket_id": "a06b799e-a5b2-44ec-acc8-6295669b94d3",
+    "timestamp": "2026-02-07T01:29:04.755354",
+    "customer_text": "Hi support, My credit card was declined but I have funds. Please help.",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Billing",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "50f1101a-8098-4424-8bf7-7ff15a5df698",
+    "timestamp": "2026-02-07T01:29:04.755369",
+    "customer_text": "Urgent: It would be great to export data to CSV. Thanks.",
+    "metadata": {
+      "source": "email",
+      "customer_tier": "Enterprise",
+      "true_category": "Feature Request",
+      "true_sentiment": "Angry"
+    }
+  },
+  {
+    "ticket_id": "3855df3e-912f-46f1-8afe-403c7bfff4b9",
+    "timestamp": "2026-02-07T01:29:04.755386",
+    "customer_text": "Hello, I cannot login to my account, password reset not working. ASAP!",
+    "metadata": {
+      "source": "web_form",
+      "customer_tier": "Enterprise",
+      "true_category": "Technical Issue",
+      "true_sentiment": "Neutral"
+    }
+  }
+]
