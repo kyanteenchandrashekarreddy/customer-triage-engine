@@ -1,33 +1,44 @@
 import streamlit as st
 import requests
-import pandas as pd
-import time
 
-st.set_page_config(page_title="Triage Insight Dashboard", layout="wide")
-st.title("🛡️ Customer Sentinel: Real-Time Triage")
+# 1. SET YOUR RENDER URL HERE
+# Example: https://customer-triage-api.onrender.com
+RENDER_URL = "https://customer-triage-engine.onrender.com"
 
-# Fetch data from our FastAPI
-try:
-    response = requests.get("http://127.0.0.1:8000/analytics/dashboard")
-    data = response.json()
-except:
-    data = {"total": 0, "high_priority": 0, "categories": {}, "recent_tickets": []}
+st.title("Customer Support Triage Dashboard")
 
-# Top Metrics
-col1, col2, col3 = st.columns(3)
-col1.metric("Total Tickets", data["total"])
-col2.metric("High Priority", data["high_priority"])
-col3.metric("System Status", "Online" if data["total"] >= 0 else "Offline")
+# 2. ADD INPUT AREA
+with st.form("ticket_form"):
+    user_message = st.text_area("Enter Customer Inquiry:", placeholder="e.g., I need a refund for my last order.")
+    submit_button = st.form_submit_button("Process Ticket")
 
-# Charts
-if data["categories"]:
-    st.bar_chart(pd.Series(data["categories"]))
+if submit_button and user_message:
+    # Send the input to your Render Backend
+    payload = {"text": user_message}
+    response = requests.post(f"{RENDER_URL}/process_ticket", json=payload)
+    
+    if response.status_code == 200:
+        result = response.json()
+        st.success(f"Classified as: {result['category']} (Priority: {result['priority']})")
+        st.info(f"AI Summary: {result['summary']}")
+    else:
+        st.error("Failed to connect to the AI backend.")
 
-# Recent Tickets Table
-if data["recent_tickets"]:
-    st.subheader("Latest High Priority Summaries")
-    st.table(pd.DataFrame(data["recent_tickets"]))
-
-# Auto-refresh logic
-time.sleep(5)
-st.rerun()
+# 3. SHOW INSIGHTS/ANALYTICS
+st.header("Customer Insights")
+if st.button("Refresh Analytics"):
+    # Fetch data from the /analytics/dashboard endpoint
+    stats_response = requests.get(f"{RENDER_URL}/analytics/dashboard")
+    
+    if stats_response.status_code == 200:
+        data = stats_response.json()
+        
+        # Display key metrics
+        col1, col2 = st.columns(2)
+        col1.metric("Total Tickets", data['total'])
+        col2.metric("High Priority", data['high_priority'])
+        
+        # Show category breakdown
+        st.bar_chart(data['categories'])
+    else:
+        st.warning("No data found. Try processing a few tickets first.")
